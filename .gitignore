@@ -29,3 +29,8 @@ htmlcov/
 .direnv
 
 .github/**
+.env_file
+admin_access_key.txt
+*.zip
+*.exe*
+*.ppk
