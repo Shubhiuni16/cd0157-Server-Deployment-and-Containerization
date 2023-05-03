@@ -54,7 +54,6 @@ def require_jwt(function):
         return function(*args, **kws)
     return decorated_function
 
-
 @APP.route('/', methods=['POST', 'GET'])
 def health():
     return jsonify("Healthy")
